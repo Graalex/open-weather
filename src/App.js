@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Header, WeatherList, Footer } from './components';
+import { Header, Main, Footer } from './components';
 
 class App extends Component {
   render() {
-    return (
+  	return (
     	<div className="page">
     		<Header/>
-    		<WeatherList/>
+				<Main/>
     		<Footer/>
     	</div>
     );
