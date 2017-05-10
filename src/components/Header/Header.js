@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 
 const Header = () => {
 	return (
@@ -6,6 +6,6 @@ const Header = () => {
 			<h1>Прогноз погоды</h1>
 		</header>
 	);
-}
+};
 
-export default Header;
+export { Header };

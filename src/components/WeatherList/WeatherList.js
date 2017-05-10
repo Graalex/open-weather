@@ -1,11 +1,11 @@
-import { React } from 'react';
+import React from 'react';
 
-const WeaterList = () => {
+const WeatherList = () => {
 	return (
 		<main className="page-content">
 			<section>Список элементов погоды</section>
 		</main>
 	);
-}
+};
 
-export default WeaterList;
+export { WeatherList };

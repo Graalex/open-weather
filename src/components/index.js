@@ -1,5 +1,3 @@
-import Header from './Header/Header';
-import WeatherList from './WeatherList/WeatherList';
-import Footer from './Footer/Footer';
-
-export default { Header, WeatherList, Footer }
+export { Header } from './Header/Header';
+export { WeatherList } from './WeatherList/WeatherList';
+export { Footer } from './Footer/Footer';
