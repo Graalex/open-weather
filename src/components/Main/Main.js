@@ -21,9 +21,7 @@ const Main = () => {
 
 	return (
 		<main className="p-content">
-			<section className="p-weather">
-				<WeatherCard weather={weather}/>
-			</section>
+			<WeatherCard weather={weather}/>
 			<section>
 				<WeatherList/>
 			</section>
