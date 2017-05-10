@@ -1,0 +1,10 @@
+.p-settings-toggle {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	background-image: url(./settings.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	content: " ";
+	outline: 1px dotted red;
+}

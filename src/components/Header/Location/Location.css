@@ -1,0 +1,14 @@
+.p-location {
+	width: 100%;
+}
+
+.p-location__display {
+	widt: 180px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+}

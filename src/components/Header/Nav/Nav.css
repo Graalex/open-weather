@@ -1,0 +1,12 @@
+.p-nav-toggle {
+	background-image: url(./menu.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 40px;
+	width: 30px;
+	max-height: 40px;
+	height: 30px;
+	margin: 5px;
+	content: " ";
+	outline: 1px dotted red;
+}

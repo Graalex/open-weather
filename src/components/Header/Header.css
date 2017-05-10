@@ -1,0 +1,17 @@
+.p-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	outline: 2px solid darkviolet;
+}
+
+.p-header__title {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px;
+	padding: 5px 0;
+	outline: 1px dotted green;
+}
