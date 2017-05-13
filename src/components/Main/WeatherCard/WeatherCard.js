@@ -1,22 +1,19 @@
 import React from 'react';
+import { MeteoItem } from './MeteoItem/MeteoItem';
+import { Time } from './Time/Time';
 
 const WeatherCard = props => {
-	const weather = props.weather;
+	const { weather } = props;
 
 	return (
 		<section className="weather-card">
-			<time className="weather-card__time">{weather.time}</time>
-			<div className="weather-card__lat">Широта: {weather.lat}</div>
-			<div className="weather-card__lon">Долгота: {weather.lon}</div>
-			<div className="weather-card__temp">Температура: {weather.temp} С</div>
-			<div className="weather-card__press">Давление: {weather.pressure} мм.рт.ст.</div>
-			<div className="weather-card__humidity">Влажность: {weather.humidity} %</div>
-			<div className="weather-card__wind">Ветер: {weather.wind}</div>
-			<div className="weather-card__clouds">Облачность: {weather.clouds} %</div>
-			<div className="weather-card__rain">Дождь: {weather.rain} мм</div>
-			<div className="weather-card__snow">Снег: {weather.snow} мм</div>
-			<div className="weather-card__temp-max">Макс. температура: {weather.temp_max} С</div>
-			<div className="weather-card__temp-min">Мин. температура: {weather.temp_min} С</div>
+			<Time time={weather.time}/>
+			<MeteoItem label={weather.lat.label} value={weather.lat.value} unit={weather.lat.unit}/>
+			<MeteoItem label={weather.lon.label} value={weather.lon.value} unit={weather.lon.unit}/>
+			<MeteoItem icon={weather.temperature.icon} label={weather.temperature.label} value={weather.temperature.value} unit={weather.temperature.unit}/>
+			<MeteoItem icon={weather.pressure.icon} label={weather.pressure.label} value={weather.pressure.value} unit={weather.pressure.unit}/>
+			<MeteoItem icon={weather.wind.icon} label={weather.wind.label} value={weather.wind.value} unit={weather.wind.unit}/>
+			<MeteoItem icon={weather.humidity.icon} label={weather.humidity.label} value={weather.humidity.value} unit={weather.humidity.unit}/>
 		</section>
 	);
 };
