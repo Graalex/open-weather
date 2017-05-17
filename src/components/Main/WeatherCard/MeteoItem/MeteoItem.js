@@ -1,9 +1,15 @@
 import React from 'react';
 
 const MeteoItem = props => {
-	const { icon, label, value, unit } = props;
+	const { type, label, value, unit } = props;
 
-	return <div>MeteoItem</div>;
+	return (
+		<div className="meteo-item" data-type={type}>
+			<span className="meteo-item__label">{label}</span>
+			<span className="meteo-item__value">{value}</span>
+			<span className="meteo-item__unit">{unit}</span>
+		</div>
+	);
 };
 
 export { MeteoItem };
