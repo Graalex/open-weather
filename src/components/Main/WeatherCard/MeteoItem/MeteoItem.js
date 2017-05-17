@@ -1,4 +1,5 @@
 import React from 'react';
+import './MeteoItem.css';
 
 const MeteoItem = props => {
 	const { type, label, value, unit } = props;

@@ -1,0 +1,16 @@
+.meteo-item {
+	margin-bottom: .5rem;
+	font-weight: 700;
+	outline: 1px dotted green;
+}
+
+.meteo-item[data-type=cord] {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.meteo-item:not([data-type=cord]) {
+	float: right;
+	margin-bottom: 1.5rem;
+}

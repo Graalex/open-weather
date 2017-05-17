@@ -1,0 +1,9 @@
+.time {
+	margin-bottom: .5rem;
+	text-align: center;
+	outline: dotted 1px green;
+}
+
+.time__value {
+	font-weight: 700;
+}
