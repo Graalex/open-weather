@@ -1,0 +1,22 @@
+.station {
+	margin-bottom: 10px;
+	font-weight: 700;
+	clear: both;
+	overflow: hidden;
+	outline: 1px dotted green;
+}
+
+.station__label, .station__name {
+	display: inline-block;
+	width: 50%;
+	outline: 1px dotted green;
+}
+
+.station__label {
+	float: left;
+	text-align: right;
+}
+
+.station__name {
+	float: right;
+}

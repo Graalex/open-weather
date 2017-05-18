@@ -1,4 +1,5 @@
 import React from 'react';
+import './Station.css';
 
 const Station = props => {
 	const { name } = props;

@@ -14,3 +14,9 @@
 	float: right;
 	margin-bottom: 1.5rem;
 }
+
+.meteo-item[data-type=humidity]::after {
+	display: block;
+	content: " ";
+	clear: both;
+}

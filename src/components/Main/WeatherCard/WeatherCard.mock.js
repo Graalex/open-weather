@@ -1,3 +1,5 @@
+import { DAY_LIGHT, CLOUDINESS_CLOUDY, RAIN_NORMAL, SNOW_SKY } from './WeatherConst.mock';
+
 export default {
 	time: 'Среда, 10 мая 2017 16:00',
 	lon: {
@@ -36,23 +38,9 @@ export default {
 		value: 5.1,
 		unit: 'м/с СЗ'
 	},
-	clouds: {
-		type: 'cloud',
-		label: 'Облачность:',
-		value: 75,
-		unit: '%'
-	},
-	rain: {
-		type: 'rain',
-		label: 'Дождь:',
-		value: 2,
-		unit: 'ч'
-	},
-	snow: {
-		type: 'snow',
-		label: 'Снег:',
-		value: 1,
-		unit: 'ч'
-	},
+	clouds: CLOUDINESS_CLOUDY,
+	rain: RAIN_NORMAL,
+	snow: SNOW_SKY,
+	day: DAY_LIGHT,
 	base: 'cmc stations'
 };
