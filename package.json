@@ -9,7 +9,7 @@
   "devDependencies": {
     "enzyme": "^2.8.2",
     "jest-enzyme": "^2.1.2",
-    "react-scripts": "0.9.5",
+    "react-scripts": "1.0.7",
     "react-test-renderer": "^15.5.4"
   },
   "scripts": {
